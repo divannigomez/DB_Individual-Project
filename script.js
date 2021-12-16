@@ -152,7 +152,7 @@ for (i = 0; i < SupersectorKeys.length; i++){
 let test = new XMLHttpRequest()
 test.addEventListener("load", responseHandler);
 let x = "https://api.bls.gov/publicAPI/v2/timeseries/data/CEU";
-let z = "000001?registrationkey=a1dcdbd8737247f583070bf7e429b164";
+let z = "000001?registrationkey=   ";
 test.open("GET", x + SupersectorKeys[i] + z);
 test.responseType = "json";
 test.send();
